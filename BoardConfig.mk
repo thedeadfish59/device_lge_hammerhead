@@ -122,6 +122,9 @@ TARGET_HAS_NO_WLAN_STATS := true
 TARGET_TOUCHBOOST_FREQUENCY := 1200
 TARGET_USES_INTERACTION_BOOST := true
 
+# Android Go
+TARGET_MINIMAL_APPS := true
+
 # SELinux policies
 include device/qcom/sepolicy-legacy/sepolicy.mk
 
